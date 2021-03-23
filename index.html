@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Mycal</title>
   <link rel="stylesheet" href="index1.css">
 </head>
 <body>
   <div class="calculator">
-    <form name="forms">
-      <input type="text" id="input" readonly value="">
+     <form name="forms"> <!-- 이게 컨테이너 -->
+      <input type="text" id="input" value="" readonly>
       <input type="button" id="clear" value="C">
       <input type="button" class='number' value="7">
       <input type="button" class='number' value="8">
@@ -24,7 +24,7 @@
       <input type="button" class='number' value="2">
       <input type="button" class='number' value="3">
       <input type="button" class="operator" id="multiply" value="*">
-      <input type="button" class='number' value="0">
+      <input type="button" class='number' id='zero' value="0">
       <input type="button" id="result" value="=">
       <input type="button" class="operator" id="divide" value="/">
     </form>

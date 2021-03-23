@@ -1,24 +1,27 @@
-body{
-  background-color: peru;
+.calculator{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: peru;
 }
 
  form{/* 클래스 calculator로 감싸는게 아니다 */
-  border: 2px solid black;
   display : grid;
   grid-template-columns: repeat(4, 111px);
   grid-auto-rows: 111px;
   gap: 5px;
+  border: 2px solid black;
+  border-radius: 10px; 
  }
+
 .operator{
   background-color: orange;
 }
 input{
+  border: 2px solid black;
+  border-radius: 10px; 
   cursor: pointer;
-  border: 1px solid blue;
   font-size: 55px;
 }
 input:hover{
